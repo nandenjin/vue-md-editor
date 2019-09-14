@@ -37,6 +37,7 @@
     "vue-template-compiler": "^2.6.10"
   },
   "dependencies": {
-    "h2m": "https://github.com/nandenjin/h2m.git"
+    "h2m": "https://github.com/nandenjin/h2m.git",
+    "material-design-icons-iconfont": "^5.0.1"
   }
 }

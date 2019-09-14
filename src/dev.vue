@@ -38,4 +38,5 @@ html, body
   .preview
     background-color: #eee
     white-space: pre-wrap
+    overflow-y: auto
 </style>
