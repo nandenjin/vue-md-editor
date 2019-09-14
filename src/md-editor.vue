@@ -10,6 +10,8 @@
 
 <script>
 import Vue from 'vue'
+import * as h2m from 'h2m'
+
 export default Vue.extend({
   props: {
     value: {
@@ -21,7 +23,7 @@ export default Vue.extend({
   methods: {
     onChange() {
       const value = this.$refs.content.innerHTML
-      this.$emit('input', value)
+      this.$emit('input', h2m(value))
     }
   }
 })
