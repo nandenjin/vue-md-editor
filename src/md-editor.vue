@@ -10,7 +10,7 @@
 
 <script>
 import Vue from 'vue'
-import * as h2m from 'h2m'
+const h2m = require('h2m')
 
 export default Vue.extend({
   props: {
