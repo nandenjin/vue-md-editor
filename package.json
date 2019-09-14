@@ -13,7 +13,7 @@
     "build:es": "rollup --config rollup.config.js --format es --file dist/my-component.esm.js",
     "build:unpkg": "rollup --config rollup.config.js --format iife --file dist/my-component.min.js",
     "lint": "eslint --ext js,ts,vue --ignore-path .gitignore .",
-    "serve": "vue serve --open src/md-editor.vue"
+    "serve": "vue serve --open src/dev.vue"
   },
   "repository": "https://github.com/nandenjin/md-editor.git",
   "author": "Kazumi Inada <hello@nandenjin.com>",
